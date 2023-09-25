@@ -47,17 +47,50 @@ body {
     background-color: black;
     border-bottom: 1px solid rgb(206, 206, 206);
     border-top: 1px solid rgb(206, 206, 206);
-    display: flex;         
+    display: flex;               
 }
 img {
     max-width: 100%;
     max-height: 700px;
     margin: auto; 
 }
-.description {
-    margin: auto;
+.footer {
+    
+    font-family: "Rubik";
+        
+}
+
+.icons {
+    width: 100%;
+    border-bottom: 1px solid rgb(206, 206, 206);;
+    display: flex;
+}
+.icons1 {
+    width: 80%;
+    padding-bottom: 1%;
+    padding-top: 1%;    
+}
+.icons1 i {
+    padding: 1%;
+}
+.icons1 button {
+    border: none;
+    background-color: transparent;
+}  
+.icons2 {
+   margin-left: 100px;
+   padding-top: 1%;
+   padding-bottom: 1%;   
+}
+.likes {
+    font-size: 10pt;
+    padding: 1%;
+}
+.description{
     padding: 2%;
-    font-family: "Rubik";    
+    padding-top: 0%;
 }
         
+    
+
     
